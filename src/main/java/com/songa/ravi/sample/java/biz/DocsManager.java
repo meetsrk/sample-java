@@ -16,9 +16,7 @@ import com.microsoft.azure.storage.blob.CloudBlockBlob;
 @Component
 public class DocsManager {
 	
-	public static final String storageConnectionString = "DefaultEndpointsProtocol=https;"
-			+ "AccountName=teststorageravi03;"
-			+ "AccountKey=SfPD3y/6u+8Ll7phUNgjLicZh0gzvScnVG97phjKuOowBA/xyrEeiAwGV9ioHz6AXHM3kYYd8Vb3T8qK0P4Ccw==";
+	public static final String storageConnectionString = null; // your storage account
 	
 	
 	public byte[] getPng() {
